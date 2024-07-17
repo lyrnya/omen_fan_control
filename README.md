@@ -4,31 +4,31 @@
 
 ### Linux
 - [NoteBook FanControl](https://github.com/nbfc-linux/nbfc-linux)<br>
-  ##### Installl
-```
+  #### Installl
+  ```
   yay -S nbfc-linux
-```
-##### Config
-```
+  ```
+  #### Config
+  ```
   cd /usr/share/nbfc/configs
   wget https://github.com/lyrnya/fan-omen16/raw/main/Config/HP%20OMEN%20Laptop%2016-b0xxx.json
   nbfc config -s 'HP OMEN Laptop 16-b0xxx'
   systemctl enable --now nbfc_service.service
-```  
+  ```  
 
 - [omen-fan](https://github.com/alou-S/omen-fan)
-  ##### Clone
+  #### Clone
   ```
   git clone https://github.com/alou-S/omen-fan.git
   ```
-  ##### Config
+  #### Config
   ```
   cd omen-fan
   ln -s omen-fan.py /usr/bin/omen-fan
   ln -s omen-fand.py /usr/bin/omen-fand
   omen-fan c --temp-curve 60,65,70,75,80,85,90,95 --speed-curve 27,32,38,44,52,60,70,80
   ```
-  ##### Systemd
+  #### Systemd
   ```
   # /usr/lib/systemd/system/omen-fan.service
   
