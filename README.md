@@ -1,11 +1,9 @@
 ### Windows
-- OmenMon
-
-  [Download](https://github.com/OmenMon/OmenMon)<br>
+- [OmenMon](https://github.com/OmenMon/OmenMon)<br>
   Move [OmenMon.xml](https://github.com/lyrnya/fan-omen16/blob/main/Config/OmenMon.xml.sys) to the OmenMon directory
 
 ### Linux
-- NoteBook FanContro [Link](https://github.com/nbfc-linux/nbfc-linux)
+- [NoteBook FanContro](https://github.com/nbfc-linux/nbfc-linux)
 
   #### Installl
   ```
@@ -19,7 +17,7 @@
   systemctl enable --now nbfc_service.service
   ```  
 
-- omen-fan [Link](https://github.com/alou-S/omen-fan)
+- [omen-fan](https://github.com/alou-S/omen-fan)
 
   #### Clone
   ```
