@@ -8,7 +8,7 @@
   [Self-use Config](https://github.com/lyrnya/fan-omen16/blob/main/Config/HP%20OMEN%20Laptop%2016-b0xxx.json)
 
 - [omen-fan](https://github.com/alou-S/omen-fan)
-  '''
+'''
   git clone https://github.com/alou-S/omen-fan.git
   cd omen-fan
   ln -s omen-fan.py /usr/bin/omen-fan
@@ -27,4 +27,4 @@
   
   [Install]
   WantedBy=multi-user.target
-  '''
+'''
