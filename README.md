@@ -1,6 +1,6 @@
 ### Windows
 - [OmenMon](https://github.com/OmenMon/OmenMon)<br>
-  Move [OmenMon.xml](https://github.com/lyrnya/fan-omen16/blob/main/Config/OmenMon.xml.sys) to the OmenMon directory
+  Move [OmenMon.xml]([https://github.com/lyrnya/fan-omen16/blob/main/Config/OmenMon.xml.sys](https://github.com/lyrnya/fan-omen16/raw/main/Config/OmenMon.xml) to the OmenMon directory
 
 ### Linux
 - [NoteBook FanContro](https://github.com/nbfc-linux/nbfc-linux)
