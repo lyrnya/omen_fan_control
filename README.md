@@ -3,7 +3,7 @@
   Move [OmenMon.xml](https://github.com/lyrnya/fan-omen16/raw/main/Config/OmenMon.xml) to the OmenMon directory
 
 ### Linux
-- [NoteBook FanContro](https://github.com/nbfc-linux/nbfc-linux)
+- [NoteBook FanControl](https://github.com/nbfc-linux/nbfc-linux)
 
   #### Installl
   ```
@@ -17,7 +17,7 @@
   systemctl enable --now nbfc_service.service
   ```  
 
-- [omen-fan](https://github.com/alou-S/omen-fan)
+- [OMEN Fan](https://github.com/alou-S/omen-fan)
 
   #### Clone
   ```
