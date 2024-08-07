@@ -6,7 +6,7 @@
  "CriticalTemperature": 100,
  "FanConfigurations": [
 	{
-	 "FanDisplayName": "CPU fan",
+	 "FanDisplayName": "CPU Fan",
 	 "ReadRegister": 46,
 	 "WriteRegister": 44,
 	 "MinSpeedValue": 0,
@@ -18,50 +18,60 @@
 	 "FanSpeedResetValue": 255,
 	 "TemperatureThresholds": [
 	  {
-	   "UpThreshold": 60,
+	   "UpThreshold": 55,
 	   "DownThreshold": 0,
 	   "FanSpeed": 27.0
 	  },
 	  {
-	   "UpThreshold": 65,
-	   "DownThreshold": 61,
-	   "FanSpeed": 32.0
+	   "UpThreshold": 60,
+	   "DownThreshold": 55,
+	   "FanSpeed": 30.0
 	  },
 	  {
-	   "UpThreshold": 70,
-	   "DownThreshold": 66,
+	   "UpThreshold": 65,
+	   "DownThreshold": 60,
 	   "FanSpeed": 38.0
 	  },
 	  {
+	   "UpThreshold": 70,
+	   "DownThreshold": 65,
+	   "FanSpeed": 40.0
+	  },
+	  {
 	   "UpThreshold": 75,
-	   "DownThreshold": 71,
+	   "DownThreshold": 70,
 	   "FanSpeed": 44.0
 	  },
 	  {
 	   "UpThreshold": 80,
-	   "DownThreshold": 76,
-	   "FanSpeed": 52.0
+	   "DownThreshold": 75,
+	   "FanSpeed": 50.0
 	  },
 	  {
 	   "UpThreshold": 85,
-	   "DownThreshold": 81,
-	   "FanSpeed": 60.0
+	   "DownThreshold": 80,
+	   "FanSpeed": 52.0
 	  },
 	  {
 	   "UpThreshold": 90,
-	   "DownThreshold": 86,
+	   "DownThreshold": 85,
+	   "FanSpeed": 60.0
+	  },
+	  {
+	   "UpThreshold": 95,
+	   "DownThreshold": 90,
 	   "FanSpeed": 70.0
 	  },
 	  {
 	   "UpThreshold": 100,
-	   "DownThreshold": 91,
+	   "DownThreshold": 95,
 	   "FanSpeed": 80.0
 	  }
 	 ],
 	 "FanSpeedPercentageOverrides": []
 	},
 	{
-	 "FanDisplayName": "GPU fan",
+	 "FanDisplayName": "GPU Fan",
 	 "ReadRegister": 47,
 	 "WriteRegister": 45,
 	 "MinSpeedValue": 0,
@@ -72,46 +82,56 @@
 	 "ResetRequired": true,
 	 "FanSpeedResetValue": 255,
 	 "TemperatureThresholds": [
-           {
-           "UpThreshold": 60,
-           "DownThreshold": 0,
-           "FanSpeed": 27.0
-          },
-          {
-           "UpThreshold": 65,
-           "DownThreshold": 61,
-           "FanSpeed": 32.0
-          },
-          {
-           "UpThreshold": 70,
-           "DownThreshold": 66,
-           "FanSpeed": 38.0
-          },
-          {
-           "UpThreshold": 75,
-           "DownThreshold": 71,
-           "FanSpeed": 44.0
-          },
-          {
-           "UpThreshold": 80,
-           "DownThreshold": 76,
-           "FanSpeed": 52.0
-          },
-          {
-           "UpThreshold": 85,
-           "DownThreshold": 81,
-           "FanSpeed": 60.0
-          },
-          {
-           "UpThreshold": 90,
-           "DownThreshold": 86,
-           "FanSpeed": 70.0
-          },
-          {
-           "UpThreshold": 100,
-           "DownThreshold": 91,
-           "FanSpeed": 80.0
-          }
+	  {
+	   "UpThreshold": 55,
+	   "DownThreshold": 0,
+	   "FanSpeed": 27.0
+	  },
+	  {
+	   "UpThreshold": 60,
+	   "DownThreshold": 55,
+	   "FanSpeed": 30.0
+	  },
+	  {
+	   "UpThreshold": 65,
+	   "DownThreshold": 60,
+	   "FanSpeed": 38.0
+	  },
+	  {
+	   "UpThreshold": 70,
+	   "DownThreshold": 65,
+	   "FanSpeed": 40.0
+	  },
+	  {
+	   "UpThreshold": 75,
+	   "DownThreshold": 70,
+	   "FanSpeed": 44.0
+	  },
+	  {
+	   "UpThreshold": 80,
+	   "DownThreshold": 75,
+	   "FanSpeed": 50.0
+	  },
+	  {
+	   "UpThreshold": 85,
+	   "DownThreshold": 80,
+	   "FanSpeed": 52.0
+	  },
+	  {
+	   "UpThreshold": 90,
+	   "DownThreshold": 85,
+	   "FanSpeed": 60.0
+	  },
+	  {
+	   "UpThreshold": 95,
+	   "DownThreshold": 90,
+	   "FanSpeed": 70.0
+	  },
+	  {
+	   "UpThreshold": 100,
+	   "DownThreshold": 95,
+	   "FanSpeed": 80.0
+	  }
 	 ],
 	 "FanSpeedPercentageOverrides": []
 	}
