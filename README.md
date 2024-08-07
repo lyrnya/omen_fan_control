@@ -12,7 +12,7 @@
   #### Config
   ```
   cd /usr/share/nbfc/configs
-  wget https://github.com/lyrnya/fan-omen16/raw/main/Config/HP%20OMEN%20Laptop%2016-b0xxx.json
+  wget https://github.com/lyrnya/omen_fan_control/raw/main/Config/HP%20OMEN%20Laptop%2016-b0xxx.json
   nbfc config -s 'HP OMEN Laptop 16-b0xxx'
   systemctl enable --now nbfc_service.service
   ```  
